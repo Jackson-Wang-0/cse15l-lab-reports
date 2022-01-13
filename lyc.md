@@ -24,7 +24,7 @@ Heading 2
 Horizontal rule:
 ---
 
-'Inline code' with backticks
+`Inline code` with backticks
 
 
 ```
