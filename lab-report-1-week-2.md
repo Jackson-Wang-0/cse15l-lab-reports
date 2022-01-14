@@ -4,6 +4,7 @@
 
 
 ### Let's begin the Tutorial !!!
+
 # Visual Studio Code
 
 1. First, You need to download [Visual Studio Code](https://code.visualstudio.com) on your computer. After it is installed, double click the icon and you will end up in a screen which looks something like this. (it could be a little different)
@@ -93,40 +94,23 @@ You should get the follwing:
 
 <img width="598" alt="截屏2022-01-13 下午10 13 15" src="https://user-images.githubusercontent.com/97211608/149460493-2c06bbc1-ebfa-4c80-974a-00cfc9efb06a.png">
 
+# Setting an SSH Key
+
+- used so we don't have to type our password every single time
+
+the command of creating such key is called `ssh-keygen`
+
+**The following is how you set it up:**
+
+<img width="665" alt="截屏2022-01-13 下午10 32 59" src="https://user-images.githubusercontent.com/97211608/149462307-f35d9d22-3ccc-4879-8485-24e9d053678c.png">
+
+**Then copy the public key to the `.ssh` directory**
+
+<img width="663" alt="截屏2022-01-13 下午10 44 58" src="https://user-images.githubusercontent.com/97211608/149463470-343f042e-8b4a-4b87-9ef6-03e5a3d53161.png">
+
+**Now we don't need to enter passwords anymore!!! HOORAY**
+
+<img width="657" alt="截屏2022-01-13 下午10 45 33" src="https://user-images.githubusercontent.com/97211608/149463534-90929767-8704-4962-93a5-2f68d0842270.png">
 
 
 
-You can use the [editor on GitHub](https://github.com/Jackson-Wang-0/Week-2-Lab-Report/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jackson-Wang-0/Week-2-Lab-Report/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
-cool
