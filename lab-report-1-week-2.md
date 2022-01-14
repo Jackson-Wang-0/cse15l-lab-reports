@@ -7,13 +7,13 @@
 
 # Visual Studio Code
 
-1. First, You need to download [Visual Studio Code](https://code.visualstudio.com) on your computer. After it is installed, double click the icon and you will end up in a screen which looks something like this. (it could be a little different)
+1. First, You need to download [Visual Studio Code](https://code.visualstudio.com) on your computer. After it is installed, double click the icon and you will end up in a screen which looks something like this. 
 
 <img width="1024" alt="截屏2022-01-12 下午11 14 40" src="https://user-images.githubusercontent.com/97211608/149283051-fae79476-3c5c-4aff-bbd6-0204ace0fb86.png">
 
 # Remotely Connecting
 
-- Window users need to [install OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) to connect your computer to another computer.
+- Window users need to [install OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 
 Next, each student have their own course-specific account which can be found at: [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php)
 
@@ -66,7 +66,7 @@ After typing in `exit` you should receive the following message:
 
 # Moving Files with scp
 
-- Create a file called `WhereAmI.java` and copy and paste the following:
+- To start, we need to create a file called `WhereAmI.java` and copy and paste the following:
 
 ```
 class WhereAmI {
