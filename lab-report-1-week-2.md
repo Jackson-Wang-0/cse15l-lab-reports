@@ -59,7 +59,7 @@ After typing in `exit` you should receive the following message:
 
 <img width="471" alt="截屏2022-01-13 下午7 39 48" src="https://user-images.githubusercontent.com/97211608/149447606-315fce80-e936-490d-af7d-83fb30561b38.png">
 
-# Moving Files with `scp`
+# Moving Files with scp
 
 
 
