@@ -45,11 +45,15 @@ Below are some commands you can try on your own:
 
 - `cd~`  navigate to your home directory
 - `cd` navigate to your home directory
-- `ls -lat` list latest files
+- `ls -lat` list latest files sorted with dates
 - `ls -a` list all files
 - `ls<directory>` where `<directory>` is `/home/linux/ieng6/cs15lwi22/cs15lwi22abc/`
 - `cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/`
 - `cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
+
+Sample Outputs:
+
+<img width="783" alt="截屏2022-01-13 下午9 57 06" src="https://user-images.githubusercontent.com/97211608/149458985-d7948bdb-ce3b-4432-8b58-e9628ab28846.png">
 
 Logout command:
 
@@ -61,6 +65,28 @@ After typing in `exit` you should receive the following message:
 
 # Moving Files with scp
 
+- Create a file called `WhereAmI.java` and copy and paste the following:
+
+```
+class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}
+```
+
+## Running on client (your computer) output:
+
+_using `javac` and `java`
+
+<img width="598" alt="截屏2022-01-13 下午10 13 15" src="https://user-images.githubusercontent.com/97211608/149460493-2c06bbc1-ebfa-4c80-974a-00cfc9efb06a.png">
+
+## Running on server output:
+
+<img width="553" alt="截屏2022-01-13 下午10 15 06" src="https://user-images.githubusercontent.com/97211608/149460641-e145389c-8771-45e7-8bc6-7efac4dfa182.png">
 
 
 
