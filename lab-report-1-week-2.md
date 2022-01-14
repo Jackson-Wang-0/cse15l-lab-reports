@@ -100,15 +100,15 @@ You should get the follwing:
 
 the command of creating such key is called `ssh-keygen`
 
-1. **The following is how you set it up:**
+**The following is how you set it up:**
 
 <img width="665" alt="截屏2022-01-13 下午10 32 59" src="https://user-images.githubusercontent.com/97211608/149462307-f35d9d22-3ccc-4879-8485-24e9d053678c.png">
 
-2. **Then copy the public key to the `.ssh` directory**
+**Then copy the public key to the `.ssh` directory**
 
 <img width="663" alt="截屏2022-01-13 下午10 44 58" src="https://user-images.githubusercontent.com/97211608/149463470-343f042e-8b4a-4b87-9ef6-03e5a3d53161.png">
 
-3. **Now we don't need to enter passwords anymore!!! HOORAY**
+**Now we don't need to enter passwords anymore!!! HOORAY**
 
 <img width="657" alt="截屏2022-01-13 下午10 45 33" src="https://user-images.githubusercontent.com/97211608/149463534-90929767-8704-4962-93a5-2f68d0842270.png">
 
