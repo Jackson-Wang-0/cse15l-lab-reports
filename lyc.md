@@ -8,8 +8,8 @@ Heading 1
 Heading 2
 ---------
 
-[1]: https://b.org
-[1]: https://url/b.jpg
+[1](https://b.org)
+[1](https://url/b.jpg)
 
 >Blockquote 
 
