@@ -78,15 +78,21 @@ class WhereAmI {
 }
 ```
 
-## Running on client (your computer) output:
+**To run the file on server, you need to run the command:**
 
-_using `javac` and `java`
+`scp WhereAmI.java cs15lwi22abc@ieng6.ucsd.edu:~/` 
+
+- replace abc with your letters
+- then log in with `ssh` and use `javac` and `java` 
+
+You should get the follwing:
+
+<img width="553" alt="截屏2022-01-13 下午10 15 06" src="https://user-images.githubusercontent.com/97211608/149460641-e145389c-8771-45e7-8bc6-7efac4dfa182.png">
+
+## Running on client (your computer) output:
 
 <img width="598" alt="截屏2022-01-13 下午10 13 15" src="https://user-images.githubusercontent.com/97211608/149460493-2c06bbc1-ebfa-4c80-974a-00cfc9efb06a.png">
 
-## Running on server output:
-
-<img width="553" alt="截屏2022-01-13 下午10 15 06" src="https://user-images.githubusercontent.com/97211608/149460641-e145389c-8771-45e7-8bc6-7efac4dfa182.png">
 
 
 
