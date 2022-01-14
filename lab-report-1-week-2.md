@@ -83,7 +83,7 @@ class WhereAmI {
 
 `scp WhereAmI.java cs15lwi22abc@ieng6.ucsd.edu:~/` 
 
-- replace abc with your letters
+- replace `abc` with your letters
 - then log in with `ssh` and use `javac` and `java` 
 
 You should get the follwing:
@@ -100,17 +100,28 @@ You should get the follwing:
 
 the command of creating such key is called `ssh-keygen`
 
-**The following is how you set it up:**
+1. **The following is how you set it up:**
 
 <img width="665" alt="截屏2022-01-13 下午10 32 59" src="https://user-images.githubusercontent.com/97211608/149462307-f35d9d22-3ccc-4879-8485-24e9d053678c.png">
 
-**Then copy the public key to the `.ssh` directory**
+2. **Then copy the public key to the `.ssh` directory**
 
 <img width="663" alt="截屏2022-01-13 下午10 44 58" src="https://user-images.githubusercontent.com/97211608/149463470-343f042e-8b4a-4b87-9ef6-03e5a3d53161.png">
 
-**Now we don't need to enter passwords anymore!!! HOORAY**
+3. **Now we don't need to enter passwords anymore!!! HOORAY**
 
 <img width="657" alt="截屏2022-01-13 下午10 45 33" src="https://user-images.githubusercontent.com/97211608/149463534-90929767-8704-4962-93a5-2f68d0842270.png">
 
+# Optimizing Remote Running
 
+- You can write quotes at the end of an `ssh` command to run it directly on the server
 
+<img width="655" alt="截屏2022-01-13 下午10 56 35" src="https://user-images.githubusercontent.com/97211608/149464655-ec9325e0-4dd8-4b38-85a7-dcefc9d8e545.png">
+
+- You can also use semicolons to run multiples commands
+
+<img width="663" alt="截屏2022-01-13 下午10 57 42" src="https://user-images.githubusercontent.com/97211608/149464778-a67b2a57-462d-4788-b8c6-8b9ce2dd3c60.png">
+
+- You can also use the up-arrow on your keyboard to accese previous inputs
+
+### THE END
