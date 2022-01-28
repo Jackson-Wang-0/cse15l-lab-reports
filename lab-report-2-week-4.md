@@ -16,7 +16,7 @@
 
 - The symtptom was that it was producing wrong outputs. Instead of **"only"** printing out the links of the file, it also printed out the image link. 
 
-- This happens due to a bug in our code where whenever we see the following sequence in a file (_open Bracket followed by closed Bracked and then followed by open and closed Paranthesis_). We tend to store whatever is between the paranthesis into our array.
+- This happens due to a bug in our code where whenever we see the following sequence in a file. We tend to store whatever is between the paranthesis into our array.
 ```
 []()
 ```
