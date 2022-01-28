@@ -12,15 +12,19 @@
 - [Test File1](https://github.com/Jackson-Wang-0/cse15l-lab-reports/edit/main/test-file-new.md)
 
 ## Symptom of Failure-inducing Input
-- <img width="646" alt="截屏2022-01-27 下午10 18 17" src="https://user-images.githubusercontent.com/97211608/151497395-2eff180e-6d6a-42ab-ba40-9149c796292d.png">
+<img width="646" alt="截屏2022-01-27 下午10 18 17" src="https://user-images.githubusercontent.com/97211608/151497395-2eff180e-6d6a-42ab-ba40-9149c796292d.png">
 
-- The symtptom was that it was producing wrong outputs. Instead of **"only"** printing out the links of the file, it also printed out the image link. This happens due to a bug in our code where whenever we see the following sequence in a file (_open Bracket followed by closed Bracked and then followed by open and closed Paranthesis_). We tend to store whatever is between the paranthesis into our array.
+- The symtptom was that it was producing wrong outputs. Instead of **"only"** printing out the links of the file, it also printed out the image link. 
+
+- This happens due to a bug in our code where whenever we see the following sequence in a file (_open Bracket followed by closed Bracked and then followed by open and closed Paranthesis_). We tend to store whatever is between the paranthesis into our array.
 ```
 []()
 ```
-- We can fix this bug by realizing that image always comes with an exclamation mark `!` 
 
-Therefore, we add the if condition
+- **We can fix this bug by realizing that image always comes with an exclamation mark `!`** 
+
+_Therefore, we add the if condition_
+
 ```
 if (!(markdown.charAt(nextOpenBracket-1) == '!')) {
                  toReturn.add(markdown.substring(openParen + 1, closeParen));
