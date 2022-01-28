@@ -69,7 +69,8 @@ Where if one of the characters is not found (aka. has index of -1). We will incr
 # **Last Code Change**
 
 ## Code Change Difference From Github
-<img width="1104" alt="截屏2022-01-27 下午11 31 41" src="https://user-images.githubusercontent.com/97211608/151505570-82e5d92e-2f44-4b99-82ad-319518dca006.png">
+<img width="1095" alt="截屏2022-01-28 上午12 30 12" src="https://user-images.githubusercontent.com/97211608/151513249-0442dbd3-42d6-44c3-bc25-1b54b710cd6b.png">
+
 
 ## Link To The Test File
 - [Click Me For the Last time :)](https://github.com/Jackson-Wang-0/cse15l-lab-reports/blob/main/test-file8.md)
