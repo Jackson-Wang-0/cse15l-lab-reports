@@ -9,7 +9,7 @@
 <img align="right" width="1255" alt="截屏2022-01-27 下午10 00 44" src="https://user-images.githubusercontent.com/97211608/151495399-4df07f75-1061-4aad-bfa9-961a9060ecae.png">
 
 ## Link To The Test File
-- [Test File1](https://github.com/Jackson-Wang-0/cse15l-lab-reports/edit/main/test-file-new.md)
+- [Test File1](https://github.com/Jackson-Wang-0/cse15l-lab-reports/blob/main/test-file-new.md)
 
 ## Symptom of Failure-inducing Input
 <img width="646" alt="截屏2022-01-27 下午10 18 17" src="https://user-images.githubusercontent.com/97211608/151497395-2eff180e-6d6a-42ab-ba40-9149c796292d.png">
