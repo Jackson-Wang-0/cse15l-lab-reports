@@ -92,7 +92,7 @@ Where if one of the characters is not found (aka. has index of -1). We will incr
                 } 
             }
 ```
-Which insures that if nextOpenBracked is not at index 0 , then we will check if it is a image link.
+Which insures that if `nextOpenBracked` is not at index 0 , then we will check if it is a image link.
 
 **Note: This end up making test-file5.md not passing the test so we could adjust it to the following**
 ```
@@ -105,6 +105,6 @@ if((nextOpenBracket!=0) && (openParen-nextCloseBracket==1)){
 Now all cases PASS!!!!
 
 # **The End**
-#Thanks for taking your time reading this!!!#
+# Thanks for taking your time reading this!!!
 
 
