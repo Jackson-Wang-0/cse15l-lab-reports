@@ -14,7 +14,7 @@
 ## Symptom of Failure-inducing Input
 <img width="646" alt="截屏2022-01-27 下午10 18 17" src="https://user-images.githubusercontent.com/97211608/151497395-2eff180e-6d6a-42ab-ba40-9149c796292d.png">
 
-- The symtptom was that it was producing wrong outputs. Instead of **"only"** printing out the links of the file, it also printed out the image link. 
+- The symptom was that it was producing wrong outputs. Instead of **"only"** printing out the links of the file, it also printed out the image link. 
 
 - This happens due to a bug in our code where whenever we see the following sequence in a file. We tend to store whatever is between the paranthesis into our array.
 ```
@@ -30,10 +30,23 @@ if (!(markdown.charAt(nextOpenBracket-1) == '!')) {
                  toReturn.add(markdown.substring(openParen + 1, closeParen));
              }
 ```
-We would only store a link if it's open bracket doesn't come with an exclamation mark `!` before it, and that would fix the bug!
+Where we would only store a link if it's open bracket doesn't come with an exclamation mark `!` before it, and that would fix the bug!
 
 
 # **Second Code Change**
+
+## Code Change Difference From Github
+<img width="1225" alt="截屏2022-01-27 下午10 46 13" src="https://user-images.githubusercontent.com/97211608/151500514-f1662a6c-bae7-472a-9b8b-aea9d8822249.png">
+
+## Link To The Test File
+- [Click Me Again!!!](https://github.com/Jackson-Wang-0/cse15l-lab-reports/blob/main/test-file7.md)
+
+## Symptom of Failure-inducing Input
+<img width="630" alt="截屏2022-01-27 下午10 58 43" src="https://user-images.githubusercontent.com/97211608/151501858-4612397c-cf66-4a8d-a65a-56420b332cb0.png">
+
+- The symptom was that our program keeps on looping and never stops which will end up with an out of memory error.
+
+- The bug was caused by the file having the `)` at index 0 which will not update our `currentIndex` variable and result in an infinite loop
 
 # **Last Code Change**
 
