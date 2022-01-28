@@ -83,7 +83,7 @@ Where if one of the characters is not found (aka. has index of -1). We will incr
 
 - **We know that ')' cannot be at index 0 and we need all of the characters of the sequence** 
 
-**_Therefore, we add the following if statement**
+**_Therefore, we add the following if statement_**
 
 ```
  if(nextOpenBracket!=0){
