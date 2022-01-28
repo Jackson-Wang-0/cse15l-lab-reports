@@ -1,9 +1,7 @@
 # **Lab Report 2 - Week 4**
 ### _By: Zhicheng Wang, Pid: A16869487_
-<p align="center">
-  <img src="![58b180bcba5a92d7d95c58153c9ce5b2](https://user-images.githubusercontent.com/97211608/151492935-bf051c84-5682-4fd1-b1a5-af45e8d7e586.png")
->
-</p>
+
+![58b180bcba5a92d7d95c58153c9ce5b2](https://user-images.githubusercontent.com/97211608/151492971-df483ed3-2d93-4421-a578-2a8e64d8eb46.png)
 
 # First Code Change 
 
