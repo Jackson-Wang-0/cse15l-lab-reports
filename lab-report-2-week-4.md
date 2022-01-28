@@ -23,7 +23,7 @@
 
 - **We can fix this bug by realizing that image always comes with an exclamation mark `!`** 
 
-_Therefore, we add the if condition_
+**_Therefore, we add the if condition_**
 
 ```
 if (!(markdown.charAt(nextOpenBracket-1) == '!')) {
@@ -44,9 +44,28 @@ Where we would only store a link if it's open bracket doesn't come with an excla
 ## Symptom of Failure-inducing Input
 <img width="630" alt="截屏2022-01-27 下午10 58 43" src="https://user-images.githubusercontent.com/97211608/151501858-4612397c-cf66-4a8d-a65a-56420b332cb0.png">
 
-- The symptom was that our program keeps on looping and never stops which will end up with an out of memory error.
+- The symptom was that our program throws an exception instead of printing out an array with no elements in it
 
-- The bug was caused by the file having the `)` at index 0 which will not update our `currentIndex` variable and result in an infinite loop
+- The bug was caused by the test file having the `)` at index 0 and doesn't have `(` and `]` which will not update our `currentIndex` variable and result in an infinite loop
+
+- **We know that ')' cannot be at index 0 and we need all of the characters of the sequence** 
+
+_To remind what sequence I'm referring to_
+
+```
+[]()
+```
+
+**_Therefore, we add the if condition_**
+
+```
+if (nextOpenBracket == -1 || nextCloseBracket == -1 || openParen == -1 || closeParen == -1) {
+                currentIndex++;
+                continue;
+            }
+```
+Where if one of the characters is not found (aka. has index of -1), We will increase the `currentIndex` variable by 1 and go to the next iteration.
+
 
 # **Last Code Change**
 
