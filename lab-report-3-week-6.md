@@ -42,9 +42,8 @@ javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.jav
 java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
 
  ```
+ - We can see that in this one line of code, the files have been successfully copied and we connected to the server with all the tests compile and running 
  
 <img width="601" alt="截屏2022-02-11 上午2 09 00" src="https://user-images.githubusercontent.com/97211608/153573168-45196e97-0e1a-44c6-8d6d-052a7220aacb.png">
-
-- We can see that in this one line of code, the files have been successfully copied and we connected to the server with all the tests compile and running 
 
 ## The END
