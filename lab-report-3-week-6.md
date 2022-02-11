@@ -1,7 +1,7 @@
 # **Lab Report 3 - Week 6**
 ### _By: Zhicheng Wang, Pid: A16869487_
 
-![33094bb0465ab73776704ed833dcfa1f jpg!logo](https://user-images.githubusercontent.com/97211608/153555155-7c805190-5f6f-4a2e-8ede-069927288664.jpeg)
+![1644386274583542](https://user-images.githubusercontent.com/97211608/153555814-bc088786-6921-431d-9690-c4838356807a.jpg)
 
 # **Copy whole directories with `scp -r`**
 
