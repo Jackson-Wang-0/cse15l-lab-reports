@@ -13,30 +13,33 @@
 scp -r . cs15lwi22@ieng6.ucsd.edu:~/markdown-parse
 ```
 
-<img width="831" alt="截屏2022-02-11 上午12 08 49" src="https://user-images.githubusercontent.com/97211608/153557008-767000eb-1f8d-40dc-97b0-a7d907b31b23.png">
+<img width="613" alt="截屏2022-02-11 上午1 55 11" src="https://user-images.githubusercontent.com/97211608/153571105-af7033b0-7e99-46ac-a231-6ae6471f8154.png">
 
 - The above is just part of the process when copying the whole directory ! 
 
-- Notice that there were a lot of "extra" stuff that you don't recognize, it is also copying the hidden files when making commits so it will take a long time.
-
+- Notice that there were a lot of "extra" stuff that is also being copyed to the remote server.
 
 ## Compiling and Running the tests in ieng6 account 
 
-<img width="664" alt="截屏2022-02-11 上午12 54 59" src="https://user-images.githubusercontent.com/97211608/153562772-8a1f8f96-7edb-4c54-ac0c-db06b2b02f19.png">
+<img width="573" alt="截屏2022-02-11 上午1 58 58" src="https://user-images.githubusercontent.com/97211608/153571668-b83d7e3c-7684-4700-be2d-021ab906a90a.png">
 
 - After logging into the ieng6 account and using the `ls markdown-parse` command, we can see that all the files have been copied over, even the ones we would see in `.git`
 
 _Then after `cd` into `markdown-parse`_
 
 - We can now compile and run the tests for our repository !
-
-<img width="820" alt="截屏2022-02-11 上午1 06 49" src="https://user-images.githubusercontent.com/97211608/153564168-596569c4-8b25-4da7-a10d-e439dfc07e7c.png">
+- 
+<img width="617" alt="截屏2022-02-11 上午1 59 47" src="https://user-images.githubusercontent.com/97211608/153571792-e5e49caf-040c-445b-84b4-50da783b9818.png">
 
 - All 8 tests passed with no errors :)
 
 ## combining `scp`, `;`, and `ssh` to copy the whole directory and run the tests in one line
 
- ```
-$ scp -r . cs15lwi22awg@ieng6.ucsd.edu:~/markdown-parse; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
+ ``` 
+$ scp -r . cs15lwi22awg@ieng6.ucsd.edu:~/markdown-parse; ssh cs15lwi22awg@ieng6.ucsd.edu cd markdown-parse javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
 
  ```
+ 
+<img width="601" alt="截屏2022-02-11 上午2 09 00" src="https://user-images.githubusercontent.com/97211608/153573168-45196e97-0e1a-44c6-8d6d-052a7220aacb.png">
+
+- We can see that in this one line of code, the files have been successfully copied and we connected to the server and running the all the tests
