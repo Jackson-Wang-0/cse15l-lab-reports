@@ -37,9 +37,9 @@ _Then after `cd` into `markdown-parse`_
 
  ``` 
 $ scp -r . cs15lwi22awg@ieng6.ucsd.edu:~/markdown-parse; 
-ssh cs15lwi22awg@ieng6.ucsd.edu cd markdown-parse 
-javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; 
-java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
+ssh cs15lwi22awg@ieng6.ucsd.edu 
+"cd markdown-parse; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java;
+java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"
 
  ```
  - We can see that in this one line of code, the files have been successfully copied and we connected to the server with all the tests compile and running 
