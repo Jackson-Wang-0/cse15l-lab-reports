@@ -141,7 +141,8 @@ And then there's more text
 
 ### My implementation 
 
-<img width="672" alt="截屏2022-02-25 下午2 49 33" src="https://user-images.githubusercontent.com/97211608/155813459-629a5cc8-c223-4bae-903c-bb94bc7a7fbe.png">
+<img width="568" alt="截屏2022-02-25 下午3 30 27" src="https://user-images.githubusercontent.com/97211608/155816729-2efda264-01ac-4a90-8fa7-6867b9dce6f2.png">
+
 
 _failed again_
 
@@ -152,7 +153,7 @@ _failed again_
 _failed again_
 
 ## Small code change regarding snippet 1? 
-
+- 
 ## Small code change regarding snippet 2? 
 
 ## Small code change regarding snippet 3? 
