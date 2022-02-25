@@ -27,24 +27,24 @@
 	    String contents = Files.readString(fileName);
       ArrayList<String> links = MarkdownParse.getLinks(contents);
 
-      assertEquals(List.of("`google.com,","google.com","ucsd.edu"),links);
+      assertEquals(List.of("`google.com","google.com","ucsd.edu"),links);
 
     }
 ```
 ### Screenshot in `MarkdownParseTest.java`
 
-<img width="549" alt="截屏2022-02-25 下午2 02 37" src="https://user-images.githubusercontent.com/97211608/155809147-3408ed3c-34a7-41b6-80a6-88d7a06a538d.png">
+<img width="515" alt="截屏2022-02-25 下午3 20 00" src="https://user-images.githubusercontent.com/97211608/155815863-e9acedc5-25cb-490e-9b3f-ba0caffe3fd7.png">
 
 
 ### My implementation 
 
-<img width="675" alt="截屏2022-02-25 下午2 06 04" src="https://user-images.githubusercontent.com/97211608/155809506-c522521e-be6f-4f58-9ebc-b2c90ad743cc.png">
+<img width="545" alt="截屏2022-02-25 下午3 19 31" src="https://user-images.githubusercontent.com/97211608/155815898-32fd4a0e-1034-4529-bee9-ee05c838fae5.png">
 
 _Sadly it failed_ 
 
 ### implementation we reviewed 
 
-<img width="613" alt="截屏2022-02-25 下午2 39 30" src="https://user-images.githubusercontent.com/97211608/155812640-1ae0c303-7527-4417-bd6a-5b16cd8b56f3.png">
+<img width="678" alt="截屏2022-02-25 下午3 22 43" src="https://user-images.githubusercontent.com/97211608/155816126-1f9cd168-2bb6-42f4-a31e-9886664b7bc5.png">
 
 _It failed as well :(_
 
@@ -150,3 +150,10 @@ _failed again_
 <img width="589" alt="截屏2022-02-25 下午3 02 18" src="https://user-images.githubusercontent.com/97211608/155814536-eb4b605b-6119-45bf-8ee7-8500dcf3da77.png">
 
 _failed again_
+
+## Small code change regarding snippet 1? 
+
+## Small code change regarding snippet 2? 
+
+## Small code change regarding snippet 3? 
+
