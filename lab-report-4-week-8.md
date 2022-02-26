@@ -168,6 +168,7 @@ _failed again_
 ## Small code change regarding snippet 3? 
 
 - This test was just ridiculous and it would definitly be a more involved change since the expected output and the actual output were worlds apart.I don't even know how to approach this problem because the VScode preview only sees the `https://cse.ucsd.edu/` as a link while our code takes on the whole
+
 ```
 github.com
 
