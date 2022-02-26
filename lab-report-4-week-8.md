@@ -3,6 +3,10 @@
 
 ![ChMkJlbKw0WIcjXGAA--xnhwdi4AALG0QOAIDAAD77e961](https://user-images.githubusercontent.com/97211608/155808012-ab2fc7c3-5efb-4e53-80fe-2c25455232c5.jpg)
 
+## [Link to our markdown-parse repository](https://github.com/ezhou413/markdown-parse)
+
+## [Link to the one we reviewed](https://github.com/sm52/markdown-parse)
+
 ## Snippet 1 
 ```
 `[a link`](url.com)
