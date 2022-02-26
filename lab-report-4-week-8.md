@@ -153,8 +153,25 @@ _failed again_
 _failed again_
 
 ## Small code change regarding snippet 1? 
-- 
+
+- I do think that a small code change could solve this problem. I am currently thinking of that if the substring of the `nextOpenBracket` and `nextCloseBracket` contains a backtick and that there is a backtick "just" before the link statement, then we would use `continue` and `currentIndex = closeParen + 1` to go on the next iteration and look for the next `nextOpenBracket`.
+
 ## Small code change regarding snippet 2? 
+
+- For this one, I also think that it is possible to fix with a small code change. My idea is that we use a while loop and that if the current `nextCloseBracket` has a close bracket after it then we would set `nextCloseBracket=nextCloseBracket+1`. The loop will stop if it reaches the end of the file (markdown.length) or if `charAt(nextCloseBracket+1)!="]"`. And the same idea goes with the `closeParen`.
 
 ## Small code change regarding snippet 3? 
 
+- This test was just ridiculous and it would definitly be a more involved change since the expected output and the actual output were worlds apart.I don't even know how to approach this problem because the VScode preview only sees the `https://cse.ucsd.edu/` as a link while our code takes on the whole
+```
+github.com
+
+And there's still some more text after that.
+
+[this link doesn't have a closing parenthesis for a while](https://cse.ucsd.edu/
+```
+
+- Which to a certain extend, I would actually think that our code was more "correct" on this part
+
+#The END
+(sorry for writing a bit pass the 2-3 sentences limit)
