@@ -8,7 +8,8 @@
 
 - Then run `bash script.sh > results.txt` which is a for loop on all the test-files that is in `.md` and then it will store all the results in `results.txt`
 
-`script.sh`
+_script.sh_
+
 ```
 for file in test-files/*.md;
 do
