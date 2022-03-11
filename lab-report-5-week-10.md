@@ -43,7 +43,7 @@ $ diff my-markdown-parse/results.txt markdown-parse/results.txt
 
 <img width="633" alt="截屏2022-03-10 下午4 27 08" src="https://user-images.githubusercontent.com/97211608/157778194-056b55d8-278e-4e37-b5c6-ea283896002e.png">
 
-- We can see that is is from `test-files/201.md` so we just cat into it and check out the file
+- We can see that is from `test-files/201.md` so we just cat into it and check out the file
 
 ```
 $ cat markdown-parse/test-files/201.md
