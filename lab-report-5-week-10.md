@@ -107,5 +107,5 @@ which would only add links where if there is an exclamation mark in front of ope
 it won't be counted as a link
 
 # The End~~~~ 
-### yeah we're done with this course~~ thank you for all you hard works!
+### yayyyy we're done with this course~~ thank you for all you hard works!
 
