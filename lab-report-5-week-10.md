@@ -20,6 +20,14 @@ done
 
 - Then I copy over the `test-files` and `script.sh` to my implementation of markdown-parse and do the above as well
 
+```
+//copy over test-files
+cp -r markdown-parse/test-files my-markdown-parse/
+
+//copy over script.sh
+cp markdown-parse/script.sh my-markdown-parse/
+```
+
 ### Now we have 2 `results.txt`files and we can use the `diff` command 
 
 ```
