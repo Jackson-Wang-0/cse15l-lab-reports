@@ -91,7 +91,7 @@ _Note: this fix is specifically for this case_
 
 <img width="806" alt="截屏2022-03-10 下午5 02 03" src="https://user-images.githubusercontent.com/97211608/157781599-0dcd0054-65fe-4c5f-a819-b0c5616acc60.png">
 
-- So out implementation was correct on this test case as well
+- So our implementation was correct on this test case as well
 
 ## What is wrong with lab 9 implementaion?
 
