@@ -1,6 +1,5 @@
-Hello !
-
-
-OMG IM IN VSCODE!!!!!
-
-Again!!!
+[Lab Report 1]([https://code.visualstudio.com](https://jackson-wang-0.github.io/cse15l-lab-reports/lab-report-1-week-2.html))
+[Lab Report 2](https://code.visualstudio.com)
+[Lab Report 3](https://code.visualstudio.com)
+[Lab Report 4](https://code.visualstudio.com)
+[Lab Report 5](https://code.visualstudio.com)
